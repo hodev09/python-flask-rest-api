@@ -22,7 +22,7 @@ how to use :
    
    c. in .env file change the DATABASE_URL from 'postgresql://postgres:{your passowrd}@localhost/{api}'
    
-   d. now run :- **python manage.py db init** # this will create initial migration folders
+   d. now run :- **python manage.py db init**      # this will create initial migration folders
    
    e. next run :- **python manage.py db migrate**
    
