@@ -12,7 +12,7 @@ how to use :
    create a .env file in your root folder & copy the following code.
    
          FLASK_ENV='development'
-         DATABASE_URL='postgresql://postgres:{your_password}@localhost/{your_database}'
+         DATABASE_URL='postgresql://postgres:{your_password}@localhost/{your_new_database}'
          JWT_SECRET_KEY='ponnambalpuzhayarukilnammalannadyamkandathormayille'
          CORS_HEADERS='Content-Type'
          PORT=6503
@@ -28,7 +28,7 @@ how to use :
 
    a. exit from the api server by pressing ctrl+c
    
-   b. create a database in your postgres server :- {any name will do}.
+   b. create a database in your postgres server :- {your_new_database}.
    
    c. in .env file change the DATABASE_URL from 'postgresql://postgres:{your passowrd}@localhost/{api}'
    
