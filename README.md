@@ -8,6 +8,16 @@ how to use :
 3. navigate to python-flask-rest-api
 4. open terminal / cmd prompt at this location **~\python-flask-rest-api** (you can also open up in a ide pycharm is one of the best
    available IDE for python / I also recommend visual studio code)
+   
+   create a .env file in your root folder & copy the following code.
+   
+         FLASK_ENV='development'
+         DATABASE_URL='postgresql://postgres:{your_password}@localhost/{your_database}'
+         JWT_SECRET_KEY='ponnambalpuzhayarukilnammalannadyamkandathormayille'
+         CORS_HEADERS='Content-Type'
+         PORT=6503
+         
+   
 5. run the following commands :-
     a. pipenv shell -- this creates a virtual environment for our self thriving web app.
     b. pipenv install -- this will install all our project dependencies our app need. You can view these dependencies in Pipfile. It is
