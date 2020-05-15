@@ -41,3 +41,5 @@ how to use :
   
  After these steps are completed.
 again run **python run.py**
+
+try out the api endpoints in postman. you can refer for the end points in Views/UserViews
