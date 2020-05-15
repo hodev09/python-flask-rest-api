@@ -15,12 +15,19 @@ how to use :
 6. After the above steps, we can run our api server by typing command :- **python run.py
 7. by defualt the port number will be 6503, you can change this in .env file.
 8. Next step would be configuring database.
+
    a. exit from the api server by pressing ctrl+c
+   
    b. create a database in your postgres server :- {any name will do}.
+   
    c. in .env file change the DATABASE_URL from 'postgresql://postgres:{your passowrd}@localhost/{api}'
+   
    d. now run :- **python manage.py db init** # this will create initial migration folders
+   
    e. next run :- **python manage.py db migrate**
+   
    f. finally run :- **python manage.py db upgrade**
+   
   
  After these steps are completed.
 again run **python run.py**
